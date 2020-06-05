@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  height: 1250px;
+}
+body img{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}

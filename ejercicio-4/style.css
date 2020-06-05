@@ -1,0 +1,28 @@
+html, body{
+    padding: 0px 50px;
+    position: relative;
+}
+body{
+    margin-top: 50px;
+}
+.main{
+    background: #b0ccab;
+    height: 150px;
+    padding: 50px 120px;
+    position: absolute;
+}
+.main p{
+    width: 100%;
+  
+
+}
+.main__paragraph{
+    background:#b0ccab;
+    position: absolute;
+    padding: 0px 60px;
+    height: 100px;
+    top: 120px;
+}
+.main__paragraph--modifi{
+    padding-left: 170px;
+}

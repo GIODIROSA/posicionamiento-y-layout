@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+#content{
+    position: relative;
+    /* width: 600px; */
+    height: 600px;
+}
+.till{
+    background-image: url(assets/img/till.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    
+}
+.ribbon{
+    position: absolute;
+    bottom: 0px;
+    left: 486px;
+
+}
+h5{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+
+}

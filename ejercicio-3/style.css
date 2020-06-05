@@ -1,0 +1,115 @@
+.grupo-1{
+    width: 90vw;
+}
+.iberica{
+    display: inline-block;
+}
+/* bandera de españa */
+.espana{
+    background: red;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.espana__amarillo{
+    background: yellow;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* bandera de dinamarca */
+.nordico{
+    display: inline-block;
+    margin-left: 50px;
+}
+.dina{
+    background: red;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    /* display: inline-block; */
+}
+.dina__blancoh{
+    background:white;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dina__blancov{
+    background:white;
+    width: 30px;
+    height: 100%;
+    position: relative;
+    left: 120px;
+}
+
+/* grupo-2 */
+
+/* bandera de emiratos arabe */
+.grupo-2{
+    width: 90vw;
+}
+.arabia{
+    display: inline-block;
+}
+.emiratos{
+    background:white;
+    height: 300px;
+    width: 400px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    position: relative;
+}
+.emiratos__verde{
+    background: green;
+    width: 100%;
+    height: 100px;
+}
+.emiratos__negro{
+    background: #000000;;
+    width: 299px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+.emiratos__rojo{
+    background: red;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+}
+
+/* bandera de japon */
+.pacifico{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.tokyo{
+    background:white;
+    height: 300px;
+    width: 400px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    /* position: relative; */
+}
+.tokyo__circulo{
+    background: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
